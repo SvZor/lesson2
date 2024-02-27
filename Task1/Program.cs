@@ -1,4 +1,4 @@
-﻿int[] arr = new int [5];
+﻿int[] arr = new int[5];
 arr[0] = 5;
 arr[1] = 7;
 arr[2] = 5;
@@ -9,5 +9,11 @@ Console.WriteLine(arr[1]);
 Console.WriteLine(arr[2]);
 Console.WriteLine(arr[3]);
 Console.WriteLine(arr[4]);
-Console.WriteLine(arr[5]);
+
+//Console.WriteLine(arr[5]);
+
+int[] arr2 = new int[5] { 1, 2, 3, 4, 5 }; 
+int[] arr3 = { 1, 2, 3, 4, 5 }; //упрощенный вариант создания массива 
+// для небольших массивов 
+// в пайтоне arr = [11,2,3,4,5]
 
